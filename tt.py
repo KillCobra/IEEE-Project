@@ -1,5 +1,5 @@
 import pandas as pd
-
+# There is a excel file, which contains the dates and slots in the respective order. I'm using pandas to extract that value and work with it.
 data = pd.read_csv(r"timtable.csv")
 
 lv = 13
